@@ -5,15 +5,14 @@
 <div class="container text-center"><br>
 <div class="row">
 <div class="col-md-4">
-        <h1>Direct Message
-        </h2>
+        <h1>Direct Message</h1>
      {% for post in images %}
         <div>
          {% if image.profile_pic %}
                 <img src="{{image.profile_pic.url}}" class="rounded-circle" style=" width:80px;height:80px;" alt="Profile dp"/>
                         {{image.profile.username}}</a>
                 {% else %}
-                <img src="/static/images/IMG_2046.jpg"  class="rounded-circle" style=" width:80px;height:80px;" alt="avatar">
+                <img src="/static/images/dog.jpg"  class="rounded-circle" style=" width:80px;height:80px;" alt="avatar">
                  {{image.profile.username}}</a>
                 {% endif %}
             <h3> {{post.profile.user.username}} {{post.user}}</h3>
