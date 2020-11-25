@@ -21,7 +21,7 @@ from decouple import config,Csv
 
 
 MODE=config("MODE", default="dev")
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = 'rywo^)vj^by26yu_hqq28r3#sk=y$ruyiz4mmwub@qx)0e78(o'
 DEBUG = config('DEBUG', default=False, cast=bool)
 # development
 if config('MODE')=="dev":
@@ -56,7 +56,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'rywo^)vj^by26yu_hqq28r3#sk=y$ruyiz4mmwub@qx)0e78(o'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
