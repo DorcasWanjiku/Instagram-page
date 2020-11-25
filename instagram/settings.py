@@ -88,7 +88,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
-]
+
 
 ROOT_URLCONF = 'instagram.urls'
 
@@ -181,5 +181,5 @@ cloudinary.config(
   api_secret = "07FLCh357mC7C4ms_o9VT1zhnLc" 
 )
 
-# Configure Django App for Heroku.
-django_heroku.settings(locals())
+# # Configure Django App for Heroku.
+# django_heroku.settings(locals())
