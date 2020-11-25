@@ -15,6 +15,7 @@ import os
 import cloudinary
 import cloudinary.uploader
 import cloudinary.api
+import django_heroku
 import dj_database_url
 from decouple import config,Csv
 
@@ -181,5 +182,5 @@ cloudinary.config(
   api_secret = "07FLCh357mC7C4ms_o9VT1zhnLc" 
 )
 
-# # Configure Django App for Heroku.
-# django_heroku.settings(locals())
+# Configure Django App for Heroku.
+django_heroku.settings(locals())
