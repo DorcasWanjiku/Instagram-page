@@ -1,9 +1,9 @@
-# Istagram Clone.
-An Instagram clone developed using django framework
+# Istagram Page.
+An Instagram page developed using django framework
 
 ## Author and contact details
-* Ronald Kiprotich
-Email: protich12@gmail.com
+* Dorcas Wanjiku
+Email: smallwanjiku@gmail.com
 
 # Project Description
 A user of the application should be able to:
@@ -62,4 +62,4 @@ One can view all images for all users in the app
 
 ## License
 * [[License: MIT]](LICENSE.md)
-* Copyright (c) 2020 **Ronald Kiprotich**
+* Copyright (c) 2020 **Dorcas Wanjiku**
